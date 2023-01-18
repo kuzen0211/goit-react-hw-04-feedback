@@ -21,7 +21,7 @@ export const Statistics = ({
   );
 };
 
-Statistics.propType = {
+Statistics.propTypes = {
   neutral: PropTypes.number.isRequired,
   good: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
